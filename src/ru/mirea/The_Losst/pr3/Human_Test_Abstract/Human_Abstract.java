@@ -63,6 +63,7 @@ public abstract class Human_Abstract {
     public void setAge(int age) {
         this.age = age;
     }
+
     public void setAll(double height, String name, char sex, boolean alive, int age){
         this.height = height;
         this.name = name;

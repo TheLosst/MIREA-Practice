@@ -3,9 +3,9 @@ package ru.mirea.The_Losst.pr3.Human_Test_Abstract;
 public class TestHuman {
     public static void main(String[] args) {
         Human sveta = new Human();
-        sveta.setAll(167.5,"Света",'Ж',true,18);
+        sveta.setAll(165,"Света",'Ж',true,19);
         System.out.println("Света : " + sveta);
-        sveta.makeOlder(5);
+        sveta.makeOlder(3);
         System.out.println("Света : " + sveta);
         sveta.makeYonger(7);
         System.out.println("Света : " + sveta);
@@ -15,5 +15,7 @@ public class TestHuman {
         System.out.println("Света : " + sveta);
         sveta.live();
         System.out.println("Света : " + sveta);
+        sveta.setSex('M');
+        System.out.println(sveta.getSex());
     }
 }

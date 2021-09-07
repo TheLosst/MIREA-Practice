@@ -2,8 +2,8 @@ package ru.mirea.The_Losst.pr3.Shape;
 
 public class Rectangle extends Shape_Abstract {
 
-    double wight = 0.0;
-    double length = 0.0;
+    protected double wight = 0.0;
+    protected double length = 0.0;
 
     public Rectangle() {
     }
@@ -18,6 +18,7 @@ public class Rectangle extends Shape_Abstract {
         this.wight = wight;
         this.length = length;
     }
+
 
     public double getWight() {
         return wight;
@@ -38,12 +39,12 @@ public class Rectangle extends Shape_Abstract {
 
     @Override
     double getArea() {
-        return 0;
+        return wight*length;
     }
 
     @Override
     double getPerimeter() {
-        return 0;
+        return 2*wight+2*length;
     }
 
     @Override

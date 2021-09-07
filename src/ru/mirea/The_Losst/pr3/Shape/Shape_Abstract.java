@@ -1,8 +1,8 @@
 package ru.mirea.The_Losst.pr3.Shape;
 
 public abstract class Shape_Abstract {
-    String color = "None";
-    boolean filled = false;
+    protected String color = "None";
+    protected boolean filled = false;
 
     public Shape_Abstract() {
     }

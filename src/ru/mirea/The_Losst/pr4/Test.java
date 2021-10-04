@@ -1,4 +1,4 @@
-package ru.mirea.The_Losst.Bipki;
+package ru.mirea.The_Losst.pr4;
 
 
 public class Test {
